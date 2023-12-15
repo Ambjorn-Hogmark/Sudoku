@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --borderColor: rgb(51, 51, 51);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "arial";
+    margin: 70px 0px;
+}
+
+#sudoku-box {
+    width: 630px;
+    height: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+    outline: solid var(--borderColor) 1px;
+}
+
+.sudoku-tile {
+    width: 70px;
+    height: 70px;
+    border: solid var(--borderColor) 1px;
+    font-size: 40px;
+    color: var(--borderColor);
+    font-family: "roboto";
+}
+
+.tile-light{
+    background-color: rgb(245, 245, 245);
+}
+
+.tile-dark{
+    background-color: rgb(230, 230, 230);
+}
+
+.border-bottom {
+    border-bottom: solid var(--borderColor) 3px;
+}
+
+.border-right {
+    border-right: solid var(--borderColor) 3px;
+}
+
